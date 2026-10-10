@@ -12,6 +12,9 @@ export function Hero() {
           <h1 className="text-balance font-serif text-4xl font-semibold leading-tight sm:text-5xl">
             Honor their service by uncovering their story.
           </h1>
+          <p className="-mt-2 font-serif text-xl italic text-accent sm:text-2xl">
+            Preserving military family history
+          </p>
           <p className="text-pretty text-lg leading-relaxed text-primary-foreground/80">
             I help families trace the military service of parents, grandparents, and ancestors
             &mdash; from service records and unit histories to medals, enlistment details, and
