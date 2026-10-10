@@ -2,7 +2,6 @@ import { Check } from 'lucide-react'
 import { HOURLY_RATE } from '@/lib/site'
 
 const included = [
-  'Free initial consultation by email',
   'Hours agreed with you before work begins',
   'Regular updates on progress and findings',
   'Written summary with sources and document copies',
@@ -33,7 +32,11 @@ export function Pricing() {
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+          <p className="mt-6 leading-relaxed">
+            Research hours, estimated costs, and payment terms are agreed upon before work begins.
+            Payment plans are available by individual agreement.
+          </p>
+          <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
             Fees charged by archives or government agencies for record copies are passed through
             at cost and discussed with you in advance.
           </p>
